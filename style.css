@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(./pexels-photo-270360.jpeg);
+    background-size: cover;
+
+}
+.container{
+    width: 450px;
+    background-color: #6b5858;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: sans-serif;
+
+}
+.container img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.container img:hover{
+    transform: scale(0.9);
+
+}
+.container h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 200;
+}
+.container h5 {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container li{
+   display: inline-block;
+   margin: 6px; 
+   list-style:none;
+
+}
+.container li a{
+    color:yellowgreen;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.container li a:hover{
+    color:#b9b9b9 ;
+    
+
+}
